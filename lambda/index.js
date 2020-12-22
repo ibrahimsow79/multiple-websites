@@ -6,8 +6,8 @@ exports.handler = (event, context, callback) => {
   const newVersion = "version=new";
   const oldVersion = "version=old";
 
-  const newSiteDomain = "new-website-yt.s3-website-us-east-1.amazonaws.com";
-  const oldSiteDomain = "old-website-yt.s3-website-us-east-1.amazonaws.com";
+  const newSiteDomain = "isow-new-website.s3-website-us-east-1.amazonaws.com";
+  const oldSiteDomain = "isow-old-website.s3-website-us-east-1.amazonaws.com";
 
   let domain = "";
 
